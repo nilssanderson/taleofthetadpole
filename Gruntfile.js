@@ -16,7 +16,7 @@ module.exports = function (grunt) {
               options: {
                 hostname: 'http://127.0.0.1',
                 port: 4000,
-                base: 'jekyll-site',
+                base: '_site',
                 keepalive:true
               }
             }
@@ -53,7 +53,7 @@ module.exports = function (grunt) {
                 options: {
                     port: '<%= connect.server.options.port %>',
                     hostname: '<%= connect.server.options.hostname %>',
-                    bases: ['_site'],
+                    bases: ['<%= connect.server.options.base %>'],
                     livereload: true
                 }
             }
@@ -88,7 +88,7 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-contrib-sass');
 
     grunt.registerTask('default', [
-        'shell',
+        'shell:jekyllBuild',
         'express',
         'open',
         'watch'
