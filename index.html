@@ -8,9 +8,19 @@ layout: default
 
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
+
+      {% if forloop.first %}
+        <li class="column first">
+      {% elsif forloop.last %}
+        <li class="column last">
+      {% else %}
+        <li class="column">
+      {% endif %}
+
         <!-- Mata info from post -->
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <div class="image">{{ post.image }}</div>
 
         <h2>
           <!-- Link to post -->
