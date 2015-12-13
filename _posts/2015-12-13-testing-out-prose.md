@@ -1,14 +1,14 @@
 ---
 category: 
   - blog
-layout: 
-  - post
+layout: post
 splash: ""
 tags: 
   - bananas
 published: true
 title: "testing-out-prose"
 ---
+
 
 ## A New Post
 
