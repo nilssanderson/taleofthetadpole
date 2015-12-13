@@ -1,9 +1,9 @@
 ---
 layout: blog
-category: 
+category:
   - "null"
 splash: ""
-tags: 
+tags:
   - "null"
 published: true
 title: Untitled
