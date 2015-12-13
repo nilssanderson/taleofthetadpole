@@ -1,11 +1,14 @@
 ---
 layout: post
-category: null
+category: 
+  - "null"
 splash: ""
-tags: null
-published: false
+tags: 
+  - "null"
+published: true
 title: "prose-config-updated"
 ---
+
 
 ## A New Post
 
