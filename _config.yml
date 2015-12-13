@@ -36,7 +36,7 @@ prose:
       # Layout
       - name: "layout"
         field:
-          element: "multiselect"
+          element: "select"
           label: "Layout Type"
           placeholder: "Choose Layout"
           options:
