@@ -85,7 +85,7 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "blog"
+          value: "post"
 
       # Title
       - name: "title"
