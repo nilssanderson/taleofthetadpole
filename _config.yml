@@ -36,23 +36,24 @@ prose:
       # Layout
       - name: "layout"
         field:
-          element: "select"
-          label: "Layout Type"
-          placeholder: "Choose Layout"
-          options:
-            - name: "Post"
-              value: "post"
+          element: "hidden"
+          value: "post"
 
+      # Title
       - name: "title"
         field:
           element: "text"
           label: "Title"
           value: ""
+
+      # Splash
       - name: "splash"
         field:
           element: "text"
           label: "Splash image"
           value: ""
+
+      # Tags
       - name: "tags"
         field:
           element: "multiselect"
