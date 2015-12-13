@@ -69,50 +69,50 @@ prose:
             - name: "Mangos"
               value: "mangos"
 
-      _posts/blog:
+    _posts/blog:
 
-        # Category
-        - name: "category"
-          field:
-            element: "multiselect"
-            label: "Category"
-            placeholder: "Choose Category"
-            options:
-              - name: "Blog"
-                value: "blog"
+      # Category
+      - name: "category"
+        field:
+          element: "multiselect"
+          label: "Category"
+          placeholder: "Choose Category"
+          options:
+            - name: "Blog"
+              value: "blog"
 
-        # Layout
-        - name: "layout"
-          field:
-            element: "hidden"
-            value: "blog"
+      # Layout
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "blog"
 
-        # Title
-        - name: "title"
-          field:
-            element: "text"
-            label: "Title"
-            value: ""
+      # Title
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
 
-        # Splash
-        - name: "splash"
-          field:
-            element: "text"
-            label: "Splash image"
-            value: ""
+      # Splash
+      - name: "splash"
+        field:
+          element: "text"
+          label: "Splash image"
+          value: ""
 
-        # Tags
-        - name: "tags"
-          field:
-            element: "multiselect"
-            label: "Add Tags"
-            placeholder: "Choose Tags"
-            options:
-              - name: "Apples"
-                value: "apples"
-              - name: "Bananas"
-                value: "bananas"
-              - name: "Pears"
-                value: "pears"
-              - name: "Mangos"
-                value: "mangos"
+      # Tags
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Apples"
+              value: "apples"
+            - name: "Bananas"
+              value: "bananas"
+            - name: "Pears"
+              value: "pears"
+            - name: "Mangos"
+              value: "mangos"
