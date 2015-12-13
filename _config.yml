@@ -22,14 +22,27 @@ prose:
   media: 'media'
   metadata:
     _posts:
+
+      # Category
       - name: "category"
         field:
-          element: "hidden"
-          value: "blog"
+          element: "multiselect"
+          label: "Category"
+          placeholder: "Choose Category"
+          options:
+            - name: "Blog"
+              value: "blog"
+
+      # Layout
       - name: "layout"
         field:
-          element: "hidden"
-          value: "post"
+          element: "multiselect"
+          label: "Layout Type"
+          placeholder: "Choose Layout"
+          options:
+            - name: "Post"
+              value: "post"
+
       - name: "title"
         field:
           element: "text"
