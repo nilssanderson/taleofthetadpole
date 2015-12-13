@@ -6,7 +6,7 @@ layout:
 splash: ""
 tags: 
   - bananas
-published: false
+published: true
 title: "testing-out-prose"
 ---
 
